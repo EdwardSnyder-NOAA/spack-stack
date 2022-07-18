@@ -117,10 +117,10 @@ packages:
       prefix: /usr
   python:
     externals:
-    - spec: python@3.9.12+bz2+ctypes+dbm+ensurepip+lzma+nis+pyexpat+pythoncmd+readline+sqlite3+ssl+tix+tkinter+uuid+zlib
-      prefix: /contrib/spack/apps/miniconda/3.9.12
+    - spec: python@3.9.7
+      prefix: /contrib/spack-stack/apps/miniconda/py39_4.11.0
       modules:
-      - miniconda/3.9.12
+      - miniconda/py39_4.11.0
   rsync:
     externals:
     - spec: rsync@3.1.2
